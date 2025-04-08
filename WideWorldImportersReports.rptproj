@@ -59,6 +59,8 @@
     <Report Include="SalesInfoVS.rdl" />
     <Report Include="SalesInfoWZ.rdl" />
     <Report Include="SalesMap.rdl" />
+    <Report Include="SupplierCategories.rdl" />
+    <Report Include="SupplierContactInfo.rdl" />
     <Report Include="WideWorldTemplate.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
