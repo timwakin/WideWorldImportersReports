@@ -1,0 +1,6 @@
+
+CREATE FULLTEXT CATALOG FullTextCatalog as DEFAULT; 
+CREATE FULLTEXT INDEX ON Warehouse.StockItems(StockItemName)
+KEY INDEX [PK_Warehouse_StockItems]
+WITH STOPLIST = SYSTEM; 
+
