@@ -55,10 +55,12 @@
     <DataSource Include="WorldWideImportersVs.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="AverageUnitPrice.rdl" />
     <Report Include="SalesByQuarter.rdl" />
     <Report Include="SalesInfoVS.rdl" />
     <Report Include="SalesInfoWZ.rdl" />
     <Report Include="SalesMap.rdl" />
+    <Report Include="StockUnitTarget.rdl" />
     <Report Include="SupplierCategories.rdl" />
     <Report Include="SupplierContactInfo.rdl" />
     <Report Include="WideWorldTemplate.rdl" />

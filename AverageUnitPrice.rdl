@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.13.35919.96</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-04-09T18:13:57.5775871Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-04-10T13:12:27.3187667Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -461,6 +461,7 @@
                       <ChartDataLabel>
                         <Style />
                       </ChartDataLabel>
+                      <ToolTip>=Fields!SupplierName.Value</ToolTip>
                       <ActionInfo>
                         <Actions>
                           <Action>
