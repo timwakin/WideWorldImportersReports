@@ -6,7 +6,7 @@ This project contains SSRS reports created from the Wide World Importers databas
 
 
 ## Features
-The project features a variety of report styles including: 
+The project features a variety of report types including: 
 * Paginated Reports
 * Summary Reports
 * Drilldown Reports
@@ -24,9 +24,9 @@ To view the reports, you'll need:
 ### Instructions
 
 1. Download the .bak file, and restore it to SQL Server
-2. Create the stored procedures (located in the SQLFiles Directory)
+2. Create the stored procedures, indexes, and function (located in the SQLFiles Directory)
 3. In Report Builder, of Visual Studio:
   * Open the report you want to view 
-  * create a data source called "WorldWideImportersVS", and give it the connection string to your sql server.   
+  * create a data Shared data source called "WorldWideImportersVS", and give it the connection string to your sql server.   
     * Example: Data Source="YourServer";Initial Catalog=WideWorldImporters
 4. Click "Run" in report builder, or click the "Preview" tab in Visual Studio
