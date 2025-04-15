@@ -56,6 +56,8 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="AverageUnitPrice.rdl" />
+    <Report Include="CustomAssembly.rdl" />
+    <Report Include="EmbeddedCode.rdl" />
     <Report Include="SalesByQuarter.rdl" />
     <Report Include="SalesInfoVS.rdl" />
     <Report Include="SalesInfoWZ.rdl" />
